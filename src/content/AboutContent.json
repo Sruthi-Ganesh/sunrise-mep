@@ -1,0 +1,46 @@
+{
+  "title": "Services",
+  "text": "We help with the following services. For more details please contact us.",
+  "section": [
+    {
+      "title": "Plumbing Services",
+      "content": "Proposed 2-Storey Semi-Detached House with Basement & Attic",
+      "icon": "plumbing.svg"
+    },
+    {
+      "title": "Interior Renovation",
+      "content": "Kitchen Renovation of Top & Low Cabinet with Solid top & Associated Plumbing Work",
+      "icon": "renovation.svg"
+    },
+    {
+      "title": "Tiling Contractor",
+      "content": "Major Renovation Works to Exterior & Interior Part of the House Springleaf Height",
+      "icon": "tiles.svg"
+    },
+    {
+      "title": "Major Renovation",
+      "content": "Proposed Reconstruction of the Existing 2-Storey Semi-Detached Dwelling House to a 2-Storey",
+      "icon": "hammer.svg"
+    },
+    {
+      "title": "Trading & Shop Renovation",
+      "content": "Major Renovation Works to Exterior & Interior Part of the House Springleaf Height",
+      "icon": "shop.svg"
+    },
+    {
+      "title": "Renovation Contractor",
+      "content": "Feature Wall to Dining with Cabinet & Mirror Castle Green Condominium",
+      "icon": "driller.svg"
+    },
+    {
+      "title": "Roofing",
+      "content": "Replacing roofs on new buildings and repairing damaged roofs",
+      "icon": "roof.svg"
+    },
+    {
+      "title": "Waterproofing",
+      "content": "We provide a range of waterproofing contractor services, from remedial rectifications and repairs to brand new builds",
+      "icon": "brush.svg"
+    }
+  ]
+}

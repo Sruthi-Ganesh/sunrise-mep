@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Residential Interior Design",
+    "points": [
+      {
+        "id": 1,
+        "title": "Customized interior design concepts",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 2,
+        "title": "Space planning and layout design",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 3,
+        "title": "Furniture selection and arrangement",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 4,
+        "title": "Color scheme and lighting design",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 5,
+        "title": "Kitchen and bathroom design",
+        "icon": "bullet.svg"
+      }
+    ],
+    "icon": "list.svg"
+  },
+  {
+    "id": 2,
+    "title": "Commercial Interior Design",
+    "points": [
+      {
+        "id": 1,
+        "title": "Office and retail space planning",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 2,
+        "title": "Corporate branding integration",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 3,
+        "title": "Ergonomic and functional design solutions",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 4,
+        "title": "Commercial furniture selection",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 5,
+        "title": "Retail store layout and display design",
+        "icon": "bullet.svg"
+      }
+    ],
+    "icon": "list.svg"
+  },
+  {
+    "id": 3,
+    "title": "Renovation and Remodeling",
+    "points": [
+      {
+        "id": 1,
+        "title": "Project management and coordination",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 2,
+        "title": "Material and finish selection",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 3,
+        "title": "Fixture and appliance sourcing",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 4,
+        "title": "Sustainable design practices",
+        "icon": "bullet.svg"
+      }
+    ],
+    "icon": "list.svg"
+  },
+  {
+    "id": 4,
+    "title": "Virtual Design Consultation",
+    "points": [
+      {
+        "id": 1,
+        "title": "Remote design services tailored to your needs",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 2,
+        "title": "Virtual room walkthroughs and concept presentations",
+        "icon": "bullet.svg"
+      }
+    ],
+    "icon": "list.svg"
+  }
+]

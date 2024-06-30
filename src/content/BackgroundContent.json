@@ -1,0 +1,34 @@
+{
+  "content": [
+    {
+      "id": 1,
+      "title": "Sunrise MEP Engineering & Construction Pte Ltd",
+      "text": "To take on major projects tendered for by the Singapore government. It has the required professional qualifications, necessary registrations, a width and depth of experience and an appropriately skilled workforce to undertake such projects. It guarantees satisfaction.",
+      "button": [
+        {
+          "title": "Explore"
+        },
+        {
+          "title": "Learn more",
+          "color": "#fff"
+        }
+      ],
+      "icon": "sunrise.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Exceptional House Renovations for Modern Living",
+      "icon": "interior.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Bringing your Dream Home to Life",
+      "icon": "roofing.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Your trusted partner for MEP works",
+      "icon": "handshake.jpeg"
+    }
+  ]
+}

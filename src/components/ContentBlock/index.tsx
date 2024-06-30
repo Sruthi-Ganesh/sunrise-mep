@@ -1,30 +1,24 @@
-import { Row, Col } from "antd";
+import { Row, Col, Carousel } from "antd";
 import { Fade } from "react-awesome-reveal";
 import { withTranslation } from "react-i18next";
 
 import { ContentBlockProps } from "./types";
 import { Button } from "../../common/Button";
-import { SvgIcon } from "../../common/SvgIcon";
 import {
   ContentSection,
   Content,
-  ContentWrapper,
-  ServiceWrapper,
-  MinTitle,
-  MinPara,
-  StyledRow,
+  BackgroundContent,
+  BackgroundStyle,
   ButtonWrapper,
-} from "./styles";
+  CarouselStyle,
+} from "../../common/Carousel/styles"
 
 const ContentBlock = ({
-  icon,
-  title,
-  content,
-  section,
+  id,
   button,
   t,
-  id,
   direction,
+  backgroundContent,
 }: ContentBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
@@ -33,77 +27,51 @@ const ContentBlock = ({
     });
   };
 
+  const getUrl = (relativeImageUrl: String) => {
+    return process.env.PUBLIC_URL + "/img/icon/" + relativeImageUrl;
+  };
+
   return (
-    <ContentSection>
+    <ContentSection id={id}>
       <Fade direction={direction} triggerOnce>
-        <StyledRow
-          justify="space-between"
-          align="middle"
-          id={id}
-          direction={direction}
-        >
-          {typeof icon === "string" && <Col lg={11} md={11} sm={12} xs={24}>
-            <SvgIcon src={icon} width="100%" height="100%" />
-          </Col>}
-          <Col lg={11} md={11} sm={11} xs={24}>
-            <ContentWrapper>
-              <h6>{t(title)}</h6>
-              <Content>{t(content)}</Content>
-              {direction === "right" ? (
-                <ButtonWrapper>
-                  {typeof button === "object" &&
-                    button.map(
-                      (
-                        item: {
-                          color?: string;
-                          title: string;
-                        },
-                        id: number
-                      ) => {
-                        return (
-                          <Button
-                            key={id}
-                            color={item.color}
-                            onClick={() => scrollTo("about")}
-                          >
-                            {t(item.title)}
-                          </Button>
-                        );
-                      }
+        <Carousel autoplay>
+          {backgroundContent?.map((bc) => {
+            return (
+              <CarouselStyle key={bc.title}>
+                <BackgroundStyle height={560} imageUrl={getUrl(bc.icon)}>
+                  <BackgroundContent>
+                    {bc.title && <h1>{t(bc.title)}</h1>}
+                    {bc.text && <Content>{t(bc.text)}</Content>}
+                    {bc.button && (
+                      <ButtonWrapper>
+                        {typeof button === "object" &&
+                          bc.button.map(
+                            (
+                              item: {
+                                color?: string;
+                                title: string;
+                              },
+                              id: number
+                            ) => {
+                              return (
+                                <Button
+                                  key={id}
+                                  color={item.color}
+                                  onClick={() => scrollTo("about")}
+                                >
+                                  {t(item.title)}
+                                </Button>
+                              );
+                            }
+                          )}
+                      </ButtonWrapper>
                     )}
-                </ButtonWrapper>
-              ) : (
-                <ServiceWrapper>
-                  <Row justify="space-between">
-                    {typeof section === "object" &&
-                      section.map(
-                        (
-                          item: {
-                            title: string;
-                            content: string;
-                            icon: string;
-                          },
-                          id: number
-                        ) => {
-                          return (
-                            <Col key={id} span={11}>
-                              <SvgIcon
-                                src={item.icon}
-                                width="60px"
-                                height="60px"
-                              />
-                              <MinTitle>{t(item.title)}</MinTitle>
-                              <MinPara>{t(item.content)}</MinPara>
-                            </Col>
-                          );
-                        }
-                      )}
-                  </Row>
-                </ServiceWrapper>
-              )}
-            </ContentWrapper>
-          </Col>
-        </StyledRow>
+                  </BackgroundContent>
+                </BackgroundStyle>
+              </CarouselStyle>
+            );
+          })}
+        </Carousel>
       </Fade>
     </ContentSection>
   );

@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Expert Team",
+        "description": "Our team consists of licensed and experienced electricians committed to safety and quality workmanship.",
+        "icon": "check.svg"
+    }, {
+        "id": 2,
+        "title": "Reliable Service",
+        "description": "We understand the importance of reliable electrical systems. We respond promptly and complete projects efficiently.",
+        "icon": "check.svg"
+    }, {
+        "id": 3,
+        "title": "Customer Satisfaction",
+        "description": "Your satisfaction is our priority. We strive to exceed your expectations with every project.",
+        "icon": "check.svg"
+    }
+]

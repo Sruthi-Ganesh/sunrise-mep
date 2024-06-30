@@ -1,10 +1,11 @@
-import { lazy } from "react";
+import { lazy, useEffect } from "react";
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
-import AboutContent from "../../content/AboutContent.json";
+import ServiceContent from "../../content/ServiceContent.json";
 import MissionContent from "../../content/MissionContent.json";
-import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
+import BackgroundContent from "../../content/BackgroundContent.json";
+import { useLocation } from "react-router-dom";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -14,6 +15,17 @@ const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 const ServiceBlock = lazy(() => import("../../components/ServicesBlock"));
 
 const Home = () => {
+
+  const {state} = useLocation();
+  const { targetId } = state || {};
+
+  useEffect(() => {
+    const el = document.getElementById(targetId);
+    if (el) {
+      el.scrollIntoView();
+    }
+  });
+  
   return (
     <Container>
       <ScrollToTop />
@@ -22,34 +34,21 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon="developer.svg"
+        backgroundContent={BackgroundContent.content}
         id="intro"
       />
       <MiddleBlock
+        id="about"
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
       />
       <ServiceBlock
         direction="left"
-        title={AboutContent.title}
-        content={AboutContent.text}
-        section={AboutContent.section}
-        id="about"
-      />
-      <ContentBlock
-        direction="right"
-        title={MissionContent.title}
-        content={MissionContent.text}
-        icon="product-launch.svg"
-        id="mission"
-      />
-      <ContentBlock
-        direction="left"
-        title={ProductContent.title}
-        content={ProductContent.text}
-        icon="waving.svg"
-        id="product"
+        title={ServiceContent.title}
+        content={ServiceContent.text}
+        section={ServiceContent.section}
+        id="services"
       />
       <Contact
         title={ContactContent.title}

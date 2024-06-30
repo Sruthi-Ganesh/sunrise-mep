@@ -126,7 +126,7 @@ export const FooterContainer = styled("div")`
   }
 `;
 
-export const Language = styled("h4")`
+export const ContentTitle = styled("h4")`
   font-size: 22px;
   text-transform: capitalize;
   color: #18216d;

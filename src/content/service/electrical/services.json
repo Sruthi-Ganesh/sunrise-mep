@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "title": "Residential Electrical Services",
+    "points": [
+      {
+        "id": 1,
+        "title": "Electrical wiring and rewiring",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 2,
+        "title": "Lighting installations (indoor and outdoor)",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 3,
+        "title": "Circuit breaker panel upgrades",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 4,
+        "title": "Outlet and switch installations",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 5,
+        "title": "LEW inspections and troubleshooting",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 6,
+        "title": "Home automation solutions",
+        "icon": "bullet.svg"
+      }
+    ],
+    "icon": "list.svg"
+  },
+  {
+    "id": 2,
+    "title": "Commercial Electrical Services",
+    "points": [
+      {
+        "id": 1,
+        "title": "Office and retail space wiring",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 2,
+        "title": "Lighting design and installation",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 3,
+        "title": "Data and network cabling",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 4,
+        "title": "Electrical system upgrades",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 5,
+        "title": "Emergency lighting installations",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 6,
+        "title": "Maintenance contracts",
+        "icon": "bullet.svg"
+      }
+    ],
+    "icon": "list.svg"
+  }
+]

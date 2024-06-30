@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Expertise and Experience",
+        "description": "Our team comprises skilled waterproofing specialists with years of experience in the industry.",
+        "icon": "check.svg"
+    }, {
+        "id": 2,
+        "title": "Effective Solutions",
+        "description": "We use industry-leading waterproofing materials and techniques to ensure long-lasting protection against water intrusion.",
+        "icon": "check.svg"
+    }, {
+        "id": 3,
+        "title": "Customer Satisfaction",
+        "description": "We prioritize customer satisfaction, delivering personalized service and solutions tailored to your specific needs.",
+        "icon": "check.svg"
+    }
+]

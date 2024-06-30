@@ -1,0 +1,48 @@
+{
+  "title": "Services",
+  "text": "We help with the following services. For more details please contact us.",
+  "section": [
+    {
+      "title": "Plumbing Services",
+      "content": "We specialize in providing top-quality plumbing services tailored to meet your residential and commercial needs. ",
+      "icon": "plumbing.jpeg",
+      "link": "/service/plumbing"
+    },
+    {
+      "title": "Interior Renovation",
+      "content": "Your trusted partner in creating stunning interior spaces that reflect your style and functionality needs",
+      "icon": "renovation.jpeg",
+      "link": "/service/interior"
+    },
+    {
+      "title": "Tiling Contractor",
+      "content": "We specialize in delivering exceptional tiling solutions that enhance the beauty and functionality of your spaces.",
+      "icon": "tiling.jpeg",
+      "link": "/service/tiling"
+    },
+    {
+      "title": "Electrical Works & LEW Inspection Services",
+      "content": "We are dedicated to providing reliable and professional electrical services tailored to meet the needs of our residential and commercial customers.",
+      "icon": "electrical.jpeg",
+      "link": "/service/electrical"
+    },
+    {
+      "title": "Roofing",
+      "content": "Replacing roofs on new buildings and repairing damaged roofs",
+      "icon": "roofing_service.jpeg",
+      "link": "/service/roofing"
+    },
+    {
+      "title": "Waterproofing",
+      "content": "We provide a range of waterproofing contractor services, from remedial rectifications and repairs to brand new builds",
+      "icon": "waterproofing.jpeg",
+      "link": "/service/waterproofing"
+    },
+    {
+      "title": "Air conditional and ventilation",
+      "content": "We specialize in providing comprehensive ACMV (Air Conditioning and Mechanical Ventilation) solutions tailored to meet the diverse needs of our clients",
+      "icon": "acmv.png",
+      "link": "/service/acmv"
+    }
+  ]
+}

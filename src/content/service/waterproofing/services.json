@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Basement Waterproofing",
+    "points": [
+      {
+        "id": 1,
+        "title": "Interior and exterior basement waterproofing",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 2,
+        "title": "Basement crack repair",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 3,
+        "title": "Sump pump installation",
+        "icon": "bullet.svg"
+      }
+    ],
+    "icon": "list.svg"
+  },
+  {
+    "id": 2,
+    "title": "Foundation Waterproofing",
+    "points": [
+      {
+        "id": 1,
+        "title": "Foundation sealant application",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 2,
+        "title": "Crawl space encapsulation",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 3,
+        "title": "French drain installation",
+        "icon": "bullet.svg"
+      }
+    ],
+    "icon": "list.svg"
+  },
+  {
+    "id": 3,
+    "title": "Roof Waterproofing",
+    "points": [
+      {
+        "id": 1,
+        "title": "Flat roof waterproofing",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 2,
+        "title": "Roof coating and sealant application",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 3,
+        "title": "Roof leak repair",
+        "icon": "bullet.svg"
+      }
+    ],
+    "icon": "list.svg"
+  },
+  {
+    "id": 3,
+    "title": "Roof Waterproofing",
+    "points": [
+      {
+        "id": 1,
+        "title": "Flat roof waterproofing",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 2,
+        "title": "Roof coating and sealant application",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 3,
+        "title": "Roof leak repair",
+        "icon": "bullet.svg"
+      }
+    ],
+    "icon": "list.svg"
+  },
+  {
+    "id": 3,
+    "title": "Commercial Waterproofing",
+    "points": [
+      {
+        "id": 1,
+        "title": "Waterproofing for parking structures",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 2,
+        "title": "Below-grade waterproofing for commercial buildings",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 3,
+        "title": "Plaza deck waterproofing",
+        "icon": "bullet.svg"
+      }
+    ],
+    "icon": "list.svg"
+  }
+]

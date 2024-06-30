@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Expertise",
+        "description": "Our team comprises skilled technicians and engineers with extensive experience in ACMV systems.",
+        "icon": "check.svg"
+    }, {
+        "id": 2,
+        "title": "Quality Assurance",
+        "description": "We use high-quality materials and adhere to industry standards to ensure durable and efficient solutions.",
+        "icon": "check.svg"
+    }, {
+        "id": 3,
+        "title": "Customer Satisfaction",
+        "description": "We prioritize customer satisfaction, providing personalized service and prompt responses to inquiries and service requests.",
+        "icon": "check.svg"
+    }
+]

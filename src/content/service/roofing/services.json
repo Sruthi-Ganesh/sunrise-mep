@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "title": "Roof Installation",
+    "points": [
+      {
+        "id": 1,
+        "title": "New roof installations (asphalt shingles, metal roofing, tile roofing, etc.)",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 2,
+        "title": "Roof replacement and upgrades",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 3,
+        "title": "Flat roof installations",
+        "icon": "bullet.svg"
+      }
+    ],
+    "icon": "list.svg"
+  },
+  {
+    "id": 2,
+    "title": "Roof Repair",
+    "points": [
+      {
+        "id": 1,
+        "title": "Roof leak detection and repair",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 2,
+        "title": "Shingle replacement",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 3,
+        "title": "Roof flashing repair",
+        "icon": "bullet.svg"
+      }
+    ],
+    "icon": "list.svg"
+  },
+  {
+    "id": 3,
+    "title": "Roof Maintenance",
+    "points": [
+      {
+        "id": 1,
+        "title": "Roof inspections and assessments",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 2,
+        "title": "Roof cleaning and debris removal",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 3,
+        "title": "Gutter cleaning and maintenance",
+        "icon": "bullet.svg"
+      }
+    ],
+    "icon": "list.svg"
+  },
+  {
+    "id": 4,
+    "title": "Emergency Roofing Services",
+    "points": [
+      {
+        "id": 1,
+        "title": "24/7 emergency roof repairs",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 2,
+        "title": "Temporary roof tarps",
+        "icon": "bullet.svg"
+      }
+    ],
+    "icon": "list.svg"
+  }
+]

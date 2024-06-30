@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
-import { SvgIcon } from "../SvgIcon";
+import { Icon } from "../Icon";
 import { ScrollUpContainer } from "./styles";
 
 const ScrollToTop = () => {
@@ -23,7 +23,7 @@ const ScrollToTop = () => {
   }, [checkScrollTop]);
 
   const scrollUp = () => {
-    const element = document.getElementById("intro") as HTMLDivElement;
+    const element = document.getElementById("header") as HTMLDivElement;
     element.scrollIntoView({
       behavior: "smooth",
       block: "end",
@@ -33,7 +33,7 @@ const ScrollToTop = () => {
 
   return (
     <ScrollUpContainer onClick={scrollUp} show={showScroll}>
-      <SvgIcon src="scroll-top.svg" width="20px" height="20px" />
+      <Icon src="scroll-top.svg" width="20px" height="20px" />
     </ScrollUpContainer>
   );
 };

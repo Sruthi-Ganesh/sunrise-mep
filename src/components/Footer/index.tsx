@@ -1,127 +1,59 @@
-import { Row, Col } from "antd";
-import { withTranslation, TFunction } from "react-i18next";
-import { SvgIcon } from "../../common/SvgIcon";
+import { Row, Col, Tag } from "antd";
+import { useNavigate } from "react-router-dom";
 import Container from "../../common/Container";
+import ServiceContent from "../../content/ServiceContent.json";
 
-import i18n from "i18next";
 import {
   FooterSection,
-  Title,
-  NavLink,
-  Extra,
-  LogoContainer,
   Para,
-  Large,
   Chat,
   Empty,
-  FooterContainer,
-  Language,
-  Label,
-  LanguageSwitch,
-  LanguageSwitchContainer,
+  ContentTitle,
 } from "./styles";
 
-interface SocialLinkProps {
-  href: string;
-  src: string;
-}
+const Footer = () => {
 
-const Footer = ({ t }: { t: TFunction }) => {
-  const handleChange = (language: string) => {
-    i18n.changeLanguage(language);
+  const navigate = useNavigate();
+
+  const scrollUp = (url: string) => {
+    navigate(url);
+    const element = document.getElementById("header") as HTMLDivElement;
+    element.scrollIntoView({
+      behavior: "smooth",
+      block: "end",
+      inline: "nearest",
+    });
   };
 
-  const SocialLink = ({ href, src }: SocialLinkProps) => {
-    return (
-      <a
-        href={href}
-        target="_blank"
-        rel="noopener noreferrer"
-        key={src}
-        aria-label={src}
-      >
-        <SvgIcon src={src} width="25px" height="25px" />
-      </a>
-    );
-  };
+  const serviceContent = ServiceContent.section;
 
   return (
     <>
       <FooterSection>
         <Container>
           <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
-              <Language>{t("Contact")}</Language>
-              <Para>
-                {t(`Do you have any question? Feel free to reach out.`)}
-              </Para>
-              <a href="mailto:venki45@hotmail.com">
-                <Chat>{t(`Email Me`)}</Chat>
-              </a>
+          <Col lg={10} md={10} sm={12} xs={12}>
+            <ContentTitle>{"Tags"}</ContentTitle>
+            {serviceContent.map((service) => (
+              <Tag.CheckableTag onClick={() => scrollUp(service.link)}
+                key={service.title}
+                checked={false}
+              >
+              <Para>{service.title}</Para>
+             </Tag.CheckableTag>
+            ))}
             </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Company")}</Title>
-              <Large to="/">{t("About")}</Large>
-              <Large to="/">{t("Blog")}</Large>
-              <Large to="/">{t("Press")}</Large>
-              <Large to="/">{t("Careers & Culture")}</Large>
-            </Col>
-          </Row>
-          <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
-              <Empty />
-              <Language>{t("Address")}</Language>
-              <Para>Bishan Street 12</Para>
+              <ContentTitle>{"Address"}</ContentTitle>
+              <Para>45 West Coast Avenue, West Coast Gardens</Para>
               <Para>Singapore</Para>
-              <Para>690345</Para>
-            </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Empty />
-              <Label htmlFor="select-lang">{t("Language")}</Label>
-              <LanguageSwitchContainer>
-                <LanguageSwitch onClick={() => handleChange("en")}>
-                  <SvgIcon
-                    src="united-states.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
-                  <SvgIcon
-                    src="spain.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-              </LanguageSwitchContainer>
+              <Para>128100</Para>
             </Col>
           </Row>
         </Container>
       </FooterSection>
-      <Extra>
-        <Container border={true}>
-          <Row
-            justify="space-between"
-            align="middle"
-            style={{ paddingTop: "3rem" }}
-          >
-            <NavLink to="/">
-              <LogoContainer>
-                <SvgIcon
-                  src="logo.svg"
-                  aria-label="homepage"
-                  width="101px"
-                  height="84px"
-                />
-              </LogoContainer>
-            </NavLink>
-          </Row>
-        </Container>
-      </Extra>
     </>
   );
 };
 
-export default withTranslation()(Footer);
+export default Footer;

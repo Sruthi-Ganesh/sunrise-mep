@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Design Expertise",
+        "description": "Our team comprises experienced interior designers with a keen eye for detail and a passion for creating exceptional spaces.",
+        "icon": "check.svg"
+    }, {
+        "id": 2,
+        "title": "Client-Centric Approach",
+        "description": "We listen to your needs and preferences, ensuring that every design reflects your style and meets your requirements.",
+        "icon": "check.svg"
+    }, {
+        "id": 3,
+        "title": "Quality and Craftsmanship",
+        "description": "We collaborate with trusted contractors and suppliers to deliver high-quality materials and finishes.",
+        "icon": "check.svg"
+    }
+]

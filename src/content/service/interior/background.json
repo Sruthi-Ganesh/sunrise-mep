@@ -1,0 +1,20 @@
+{
+    "content": [
+      {
+        "id": 1,
+        "icon": "service/interior/1.jpeg"
+      },
+      {
+        "id": 2,
+        "icon": "service/interior/2.jpeg"
+      },
+      {
+        "id": 3,
+        "icon": "service/interior/3.jpeg"
+      },
+      {
+        "id": 4,
+        "icon": "service/interior/4.jpeg"
+      }
+    ]
+  }

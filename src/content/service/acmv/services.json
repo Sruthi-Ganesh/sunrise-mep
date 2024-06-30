@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title": "Air-Conditioning Services",
+    "points": [
+      {
+        "id": 1,
+        "title": "Installation of air-conditioning systems (split, multi-split, VRV/VRF)",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 2,
+        "title": "Maintenance and servicing",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 3,
+        "title": "Troubleshooting and repairs",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 4,
+        "title": "Ducted air-conditioning systems",
+        "icon": "bullet.svg"
+      }
+    ],
+    "icon": "list.svg"
+  },
+  {
+    "id": 2,
+    "title": "Mechanical Ventilation Services",
+    "points": [
+      {
+        "id": 1,
+        "title": "Ventilation system design and installation",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 2,
+        "title": "Exhaust fan installation and maintenance",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 3,
+        "title": "Air handling unit (AHU) services",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 4,
+        "title": "Indoor air quality assessments",
+        "icon": "bullet.svg"
+      }
+    ],
+    "icon": "list.svg"
+  },
+  {
+    "id": 3,
+    "title": "Plumbing Services",
+    "points": [
+      {
+        "id": 1,
+        "title": "Plumbing system installation and upgrades",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 2,
+        "title": "Leak detection and repair",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 3,
+        "title": "Drain cleaning and sewer line services",
+        "icon": "bullet.svg"
+      },
+      {
+        "id": 4,
+        "title": "Water heater installation and repair",
+        "icon": "bullet.svg"
+      }
+    ],
+    "icon": "list.svg"
+  }
+]

@@ -1,0 +1,20 @@
+{
+    "content": [
+      {
+        "id": 1,
+        "icon": "service/electrical/1.jpeg"
+      },
+      {
+        "id": 2,
+        "icon": "service/electrical/2.jpeg"
+      },
+      {
+        "id": 3,
+        "icon": "service/electrical/3.jpeg"
+      },
+      {
+        "id": 4,
+        "icon": "service/electrical/4.jpeg"
+      }
+    ]
+  }

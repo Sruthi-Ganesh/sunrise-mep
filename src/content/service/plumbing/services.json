@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "title": "Emergency Plumbing",
+        "description": "We understand that plumbing emergencies can happen at any time. Our 24/7 emergency service ensures that you have access to prompt assistance when you need it most.",
+        "icon": "list.svg"
+    }, {
+        "id": 2,
+        "title": "General Plumbing Repairs",
+        "description": "From leaky faucets to burst pipes, our experienced plumbers provide efficient and effective repairs to restore functionality to your plumbing system.",
+        "icon": "list.svg"
+    }, {
+        "id": 3,
+        "title": "Pipe Installation and Repair",
+        "description": "Whether you're renovating your home or office, or dealing with aging pipes, we offer expert installation and repair services to ensure proper water flow and drainage.",
+        "icon": "list.svg"
+    }, {
+        "id": 4,
+        "title": "Water Heater Services",
+        "description": "Our team specializes in water heater installation, repair, and maintenance. Whether you have a traditional tank system or a tankless water heater, we ensure your hot water needs are met.",
+        "icon": "list.svg"
+    }, {
+        "id": 5,
+        "title": "Drain Cleaning",
+        "description": "Clogged drains can be a hassle. We use advanced techniques and equipment to clear blockages and prevent future issues, restoring proper drainage to sinks, showers, and toilets.",
+        "icon": "list.svg"
+    } , {
+        "id": 6,
+        "title": "Sewer Line Services",
+        "description": "From inspections using camera technology to repairs and replacements, we handle all aspects of sewer line maintenance to keep your plumbing system operating smoothly.",
+        "icon": "list.svg"
+    }
+]

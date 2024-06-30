@@ -2,6 +2,11 @@ import { createGlobalStyle } from "styled-components";
 
 export const Styles = createGlobalStyle`
 
+    html {
+        scroll-behavior: smooth;
+    }
+
+
     @font-face {
         font-family: "Motiva Sans Light";
         src: url("/fonts/Motiva-Sans-Light.ttf") format("truetype");
@@ -55,11 +60,25 @@ export const Styles = createGlobalStyle`
     h2,
     h3,
     h4,
-    h5,
-    h6 {
+    h5 {
         font-family: 'Motiva Sans Bold', serif;
         color: #18216d;
         font-size: 56px;
+        line-height: 1.18;
+
+        @media only screen and (max-width: 890px) {
+          font-size: 47px;
+        }
+      
+        @media only screen and (max-width: 414px) {
+          font-size: 32px;
+        }
+    }
+
+    h6 {
+        font-family: 'Motiva Sans Bold', serif;
+        color: #18216d;
+        font-size: 24px;
         line-height: 1.18;
 
         @media only screen and (max-width: 890px) {

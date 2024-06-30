@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Expertise and Experience",
+        "description": "Our team consists of skilled roofing contractors with extensive experience in the industry.",
+        "icon": "check.svg"
+    }, {
+        "id": 2,
+        "title": "Quality Materials",
+        "description": "We use top-quality roofing materials from trusted manufacturers to ensure durability and performance.",
+        "icon": "check.svg"
+    }, {
+        "id": 3,
+        "title": "Customer Satisfaction",
+        "description": "We prioritize customer satisfaction, offering personalized service and transparent communication throughout every project.",
+        "icon": "check.svg"
+    }
+]

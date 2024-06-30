@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Experienced Professionals",
+        "description": "Our plumbers are licensed, insured, and trained to handle a wide range of plumbing issues.",
+        "icon": "check.svg"
+    }, {
+        "id": 2,
+        "title": "Reliable Service",
+        "description": "We pride ourselves on punctuality and professionalism, ensuring that your plumbing project is completed on time and to your satisfaction.",
+        "icon": "check.svg"
+    }, {
+        "id": 3,
+        "title": "Transparent Pricing",
+        "description": "We provide upfront pricing and honest assessments, so you know exactly what to expect before any work begins.",
+        "icon": "check.svg"
+    }, {
+        "id": 4,
+        "title": "Customer Focus",
+        "description": "Your satisfaction is our priority. We strive to provide friendly, courteous service and effective solutions that meet your needs.",
+        "icon": "check.svg"
+    }
+]

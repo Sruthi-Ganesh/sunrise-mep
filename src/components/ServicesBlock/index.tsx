@@ -1,52 +1,45 @@
-import { Row, Col } from "antd";
+import { Meta } from "antd/lib/list/Item";
 import { Fade } from "react-awesome-reveal";
 import { withTranslation } from "react-i18next";
 
 import { ServiceBlockProps } from "./types";
-import { SvgIcon } from "../../common/SvgIcon";
 import {
+  StyledCard,
   ContentSection,
   Content,
   ContentWrapper,
-  ServiceWrapper,
-  MinTitle,
-  MinPara
-} from "./styles";
+  ServiceWrapper} from "./styles";
+import { useNavigate } from "react-router-dom";
 
 const ServiceBlock = ({
+  id,
   title,
   content,
   section,
   t,
   direction,
 }: ServiceBlockProps) => {
+
+  const navigate = useNavigate();
+
   return (
-    <ContentSection>
+    <ContentSection id={id}>
       <Fade direction={direction} triggerOnce>
             <ContentWrapper>
-              <h6>{t(title)}</h6>
+              <h1>{t(title)}</h1>
               <Content>{t(content)}</Content>
                 <ServiceWrapper>
                     {typeof section === "object" &&
-                      section.map(
-                        (
-                          item: {
-                            title: string;
-                            content: string;
-                            icon: string;
-                          },
-                          id: number
-                        ) => {
+                      section.map((item) => {
                           return (
-                            <Col key={id} span={11}>
-                              <SvgIcon
-                                src={item.icon}
-                                width="60px"
-                                height="60px"
-                              />
-                              <MinTitle>{t(item.title)}</MinTitle>
-                              <MinPara>{t(item.content)}</MinPara>
-                            </Col>
+                            <StyledCard
+                              key={item.title}
+                              hoverable
+                              onClick={() => navigate(item.link, { state: { targetId: "about" }})}
+                              cover={<img style={{height: 250}} alt={item.title} src={"/img/icon/" + item.icon} />}
+                            >
+                              <Meta title={item.title} description={item.content} />
+                            </StyledCard>
                           );
                         }
                       )}

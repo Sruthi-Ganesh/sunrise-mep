@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { MenuOutlined } from "@ant-design/icons";
+import { Row } from "antd";
 
 export const HeaderSection = styled("header")`
   padding: 1rem 0.5rem;
@@ -90,6 +91,38 @@ export const Span = styled("span")`
   &:focus {
     color: rgb(255, 130, 92);
     text-underline-position: under;
-    text-decoration: rgb(255, 130, 92) wavy underline;
+    text-decoration: rgb(255, 130, 92) solid underline;
   }
+`;
+
+export const HeaderContent = styled("h5") `
+  text-align: center;
+  margin: 0;
+`;
+
+export const NextLineContent = styled("h6") `
+  text-align: center;
+  margin: 0;
+`;
+
+export const TitleSection = styled("div")`
+  flex-direction: column;
+  align-items:center;
+`;
+
+export const HeaderRowTopSection = styled(Row) `
+  marginRight: 20px
+`;
+
+export const HeaderRowInnerTopSection = styled(Row) `
+  padding: 0 20px;
+`;
+
+export const HeaderRowBorderSection = styled(Row) `
+  padding: 0 20px;
+  border-right: 1px solid #18216d;
+`;
+
+export const HeaderRowNestedSection = styled(Row) `
+  padding: 0 10px;
 `;

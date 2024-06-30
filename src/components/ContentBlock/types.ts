@@ -1,4 +1,5 @@
 import { TFunction } from "react-i18next";
+import { BackgroundBlockProps } from "../../common/Carousel/backgroundTypes";
 export interface ContentBlockProps {
   icon?: string;
   title: string;
@@ -21,4 +22,5 @@ export interface ContentBlockProps {
   t: TFunction;
   id: string;
   direction: "left" | "right";
+  backgroundContent?: BackgroundBlockProps[];
 }

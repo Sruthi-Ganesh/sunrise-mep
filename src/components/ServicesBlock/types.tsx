@@ -6,6 +6,7 @@ export interface ServiceBlockProps {
     title: string;
     content: string;
     icon: string;
+    link: string;
   }[];
   t: TFunction;
   id: string;

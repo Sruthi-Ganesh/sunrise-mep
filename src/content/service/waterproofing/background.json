@@ -1,0 +1,20 @@
+{
+    "content": [
+      {
+        "id": 1,
+        "icon": "service/waterproofing/1.jpeg"
+      },
+      {
+        "id": 2,
+        "icon": "service/waterproofing/2.jpeg"
+      },
+      {
+        "id": 3,
+        "icon": "service/waterproofing/3.jpeg"
+      },
+      {
+        "id": 4,
+        "icon": "service/waterproofing/4.jpeg"
+      }
+    ]
+  }

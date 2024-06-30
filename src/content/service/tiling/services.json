@@ -1,0 +1,91 @@
+[
+    {
+      "id": 1,
+      "title": "Tile Installation",
+      "points": [
+        {
+          "id": 1,
+          "title": "Floor tile installation (ceramic, porcelain, marble, etc.)",
+          "icon": "bullet.svg"
+        },
+        {
+          "id": 2,
+          "title": "Wall tile installation (kitchen backsplashes, bathroom walls, etc.)",
+          "icon": "bullet.svg"
+        },
+        {
+          "id": 3,
+          "title": "Outdoor tile installations (patios, pool areas, etc.)",
+          "icon": "bullet.svg"
+        },
+        {
+          "id": 4,
+          "title": "Custom tile designs and patterns",
+          "icon": "bullet.svg"
+        }
+      ],
+      "icon": "list.svg"
+    },
+    {
+      "id": 2,
+      "title": "Tile Repair and Replacement",
+      "points": [
+        {
+          "id": 1,
+          "title": "Cracked or chipped tile repair",
+          "icon": "bullet.svg"
+        },
+        {
+          "id": 2,
+          "title": "Grout repair and replacement",
+          "icon": "bullet.svg"
+        },
+        {
+          "id": 3,
+          "title": "Tile regrouting and sealing",
+          "icon": "bullet.svg"
+        }
+      ],
+      "icon": "list.svg"
+    },
+    {
+      "id": 3,
+      "title": "Tile Restoration",
+      "points": [
+        {
+          "id": 1,
+          "title": "Tile cleaning and polishing",
+          "icon": "bullet.svg"
+        },
+        {
+          "id": 2,
+          "title": "Grout cleaning and restoration",
+          "icon": "bullet.svg"
+        },
+        {
+          "id": 3,
+          "title": "Stain and mildew removal",
+          "icon": "bullet.svg"
+        }
+      ],
+      "icon": "list.svg"
+    },
+    {
+      "id": 4,
+      "title": "Waterproofing Services",
+      "points": [
+        {
+          "id": 1,
+          "title": "Remote design services tailored to your needs",
+          "icon": "bullet.svg"
+        },
+        {
+          "id": 2,
+          "title": "Virtual room walkthroughs and concept presentations",
+          "icon": "bullet.svg"
+        }
+      ],
+      "icon": "list.svg"
+    }
+  ]
+  

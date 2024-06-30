@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Expertise and Experience",
+        "description": "Our team consists of skilled tile installers with years of experience in the industry.",
+        "icon": "check.svg"
+    }, {
+        "id": 2,
+        "title": "Quality Materials",
+        "description": "We use high-quality tiles, adhesives, and grouts to ensure long-lasting results.",
+        "icon": "check.svg"
+    }, {
+        "id": 3,
+        "title": "Customer Satisfaction",
+        "description": "We prioritize customer satisfaction, delivering superior service and exceeding expectations.",
+        "icon": "check.svg"
+    }
+]

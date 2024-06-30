@@ -1,0 +1,20 @@
+{
+    "content": [
+      {
+        "id": 1,
+        "icon": "service/plumbing/1.jpeg"
+      },
+      {
+        "id": 2,
+        "icon": "service/plumbing/2.jpeg"
+      },
+      {
+        "id": 3,
+        "icon": "service/plumbing/3.jpeg"
+      },
+      {
+        "id": 4,
+        "icon": "service/plumbing/4.jpeg"
+      }
+    ]
+  }

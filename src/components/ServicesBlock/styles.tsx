@@ -1,9 +1,9 @@
-import { Row } from "antd";
+import { Row, Card } from "antd";
 import styled from "styled-components";
 
 export const ContentSection = styled("section")`
   position: relative;
-  padding: 10rem 0 8rem;
+  padding: 2rem 0 2rem;
 
   @media only screen and (max-width: 1024px) {
     padding: 1rem 0 1rem;
@@ -45,3 +45,8 @@ export const MinTitle = styled("h6")`
 export const MinPara = styled("p")`
   font-size: 15px;
 `;
+
+export const StyledCard = styled(Card)`
+  width: 340px;
+  margin: 16px 16px 0 0;
+`
